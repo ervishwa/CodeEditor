@@ -1,5 +1,6 @@
 import React from "react";
-import TextArea from "./TextArea";
+// import TextArea from "./TextArea";
+import { CodeEditor } from "./CodeEditor";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <p className="mb-2 text-center w-3/4 font-normal">
         A simple no-frills code editor with syntax highlighting.
       </p>
-      <TextArea />
+      <CodeEditor />
     </div>
   );
 }
