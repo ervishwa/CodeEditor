@@ -1,6 +1,4 @@
-export default function TextArea({value,setValue}) {
-
-
+export default function TextArea({ value, setValue }) {
   const handleInputChange = (event) => {
     setValue(event.target.value);
   };

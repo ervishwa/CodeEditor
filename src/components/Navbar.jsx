@@ -33,6 +33,7 @@ export default function Navbar() {
       {codeEditors.map((currentEditor) => {
         return (
           <div
+            key={currentEditor.id}
             className={` ${
               currentEditor.id === activeEditorId ? "bg-slate-400" : ""
             } ${currentEditor.id !== 3 && "border-r"}  border-black  p-2`}

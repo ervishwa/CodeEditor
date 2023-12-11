@@ -25,7 +25,7 @@ function Editor() {
 
 export function CodeEditorSecond() {
   return (
-    <div>
+    <div className="overflow-scroll">
       <Editor />
     </div>
   );

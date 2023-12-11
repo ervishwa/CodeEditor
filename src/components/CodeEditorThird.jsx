@@ -6,7 +6,7 @@ export function CodeEditorThird() {
   const [value, setValue] = useState("");
 
   return (
-    <div className="w-[400px]">
+    <div className="w-[400px] overflow-scroll">
       <TextArea value={value} setValue={setValue} />
       <Highlight theme={themes.oneLight} code={value} language="javascript">
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
