@@ -1,12 +1,19 @@
 import React from "react";
-
 import "./App.css";
-import Home from "./components/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
+import { CodeEditor } from "./components/CodeEditor";
+import CodeEditorSecond from "./components/CodeEditorSecond";
 
 export default function App() {
   return (
-    <div className="flex justify-center items-center h-[100vh]">
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<CodeEditor/>} />
+          <Route path="prism" element={<CodeEditorSecond />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

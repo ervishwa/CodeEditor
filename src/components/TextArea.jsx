@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+export default function TextArea({value,setValue}) {
 
-export default function TextArea() {
-  const [value, setValue] = useState("");
 
   const handleInputChange = (event) => {
     setValue(event.target.value);
@@ -13,7 +11,7 @@ export default function TextArea() {
   };
 
   return (
-    <div className="w-[80%] mt-12">
+    <div className="w-full mt-12">
       <textarea
         className="w-full bg-stone-100 resize-none border-none outline-none p-2 text-xs"
         id="comment"
