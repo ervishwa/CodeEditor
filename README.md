@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Tealfeed Code Editor Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains three implementations of a simple code editor in React, each using a different library for syntax highlighting: CodeMirror, Prism JS, and Prism React Renderer.
 
-## Available Scripts
+Table of Contents
 
-In the project directory, you can run:
+1. Introduction
+2. Project Structure
+3. Installation
+4. Usage
+5. Libraries Used
+6. Contributing
+7. License
 
-### `npm start`
+Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a part of the Tealfeed assignment to build a simple code editor in React, similar to react-simple-code-editor. The goal is to demonstrate different implementations using popular syntax highlighting libraries such as CodeMirror, Prism JS, and Prism React Renderer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+**/code mirror-editor:** Code editor implementation using CodeMirror library.
+<img width="719" alt="Screenshot 2023-12-11 at 5 43 52 PM" src="https://github.com/ervishwa/CodeEditor/assets/106695186/f9027514-abe9-4f53-b0ad-414d02f582c5">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**/prism-js-editor:** Code editor implementation using Prism JS library.
+<img width="630" alt="Screenshot 2023-12-11 at 5 46 36 PM" src="https://github.com/ervishwa/CodeEditor/assets/106695186/13e6951d-d3c5-4238-b114-b252263a43fd">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**/prism-react-renderer-editor:** Code editor implementation using Prism React Renderer library.
+<img width="681" alt="Screenshot 2023-12-11 at 5 47 01 PM" src="https://github.com/ervishwa/CodeEditor/assets/106695186/ab6ce17d-f62e-46c9-8152-e6ab07817bb5">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**/shared-components:** Shared components are used across all three implementations.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
+   
+`
+git clone https://github.com/your-username/tealfeed-code-editor.git
+`
 
-### Code Splitting
+2. Navigate to the desired code editor implementation directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`
+cd tealfeed-code-editor/codemirror-editor
+`
+or
 
-### Analyzing the Bundle Size
+`
+cd tealfeed-code-editor/prism-js-editor
+`
+or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`
+cd tealfeed-code-editor/prism-react-renderer-editor
+`
 
-### Making a Progressive Web App
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`
+npm install
+`
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the development server:
+`
+npm start
+`
 
-### Deployment
+*Open your browser and navigate to http://localhost:3000 to view the code editor in action.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Libraries Used
 
-### `npm run build` fails to minify
+- CodeMirror: A versatile text editor implemented in JavaScript.
+- Prism JS: A lightweight syntax highlighter.
+- Prism React Renderer: React components for Prism JS.
+  
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: git checkout -b feature-name.
+3. Make your changes and commit them: git commit -m 'Add new feature'.
+4. Push to the branch: git push origin feature-name.
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
