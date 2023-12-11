@@ -18,23 +18,23 @@ This project is a part of the Tealfeed assignment to build a simple code editor 
 
 ## Project Structure
 
-**/code mirror-editor:** Code editor implementation using CodeMirror library.
+**`/code mirror-editor:`** Code editor implementation using CodeMirror library.
 <img width="719" alt="Screenshot 2023-12-11 at 5 43 52 PM" src="https://github.com/ervishwa/CodeEditor/assets/106695186/f9027514-abe9-4f53-b0ad-414d02f582c5">
 
 
 
 
-**/prism-js-editor:** Code editor implementation using Prism JS library.
+**`/prism-js-editor:`** Code editor implementation using Prism JS library.
 <img width="630" alt="Screenshot 2023-12-11 at 5 46 36 PM" src="https://github.com/ervishwa/CodeEditor/assets/106695186/13e6951d-d3c5-4238-b114-b252263a43fd">
 
 
 
-**/prism-react-renderer-editor:** Code editor implementation using Prism React Renderer library.
+**`/prism-react-renderer-editor:`** Code editor implementation using Prism React Renderer library.
 <img width="681" alt="Screenshot 2023-12-11 at 5 47 01 PM" src="https://github.com/ervishwa/CodeEditor/assets/106695186/ab6ce17d-f62e-46c9-8152-e6ab07817bb5">
 
 
 
-**/shared-components:** Shared components are used across all three implementations.
+**`/shared-components:`** Shared components are used across all three implementations.
 
 
 ## Installation
