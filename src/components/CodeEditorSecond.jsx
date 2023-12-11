@@ -11,7 +11,7 @@ function Editor() {
   }, [code]);
 
   return (
-    <div className="editor-container w-[400px]">
+    <div className="editor-container w-[500px]">
       <TextArea value={code} setValue={setCode} />
       <pre
         id="editor-pre"
