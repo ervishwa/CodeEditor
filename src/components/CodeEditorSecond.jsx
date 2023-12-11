@@ -23,7 +23,7 @@ function Editor() {
   );
 }
 
-export default function CodeEditorSecond() {
+export function CodeEditorSecond() {
   return (
     <div>
       <Editor />
