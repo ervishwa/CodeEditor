@@ -47,12 +47,6 @@ export function CodeEditorThird() {
 }
 
 const styles = {
-  container: {
-    position: "relative",
-    textAlign: "left",
-    boxSizing: "border-box",
-    padding: 0,
-  },
   textarea: {
     position: "absolute",
     top: 0,
